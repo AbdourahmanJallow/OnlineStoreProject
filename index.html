@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Store | Home</title>
+        <script src="https://kit.fontawesome.com/fe552563ca.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body id="home">
+        <nav id="navbar" class="bg-color">
+            <h1 class="logo"><span class="text-color"><i class="fa-solid fa-cart-shopping"></i> My Store</span></h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <header id="main-header">
+            <div class="showcase">
+                <h2 class="l-header"><span class="text-color"><i class="fa-solid fa-cart-shopping"></i> </span> Shop
+                    Online</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis eius repellat perferendis deserunt
+                    libero quaerat.</p>
+                <a href="#products" class="btn btn-color">See our products</a>
+            </div>
+        </header>
+
+        <section id="about">
+            <div class="content">
+                <h3 class="m-header"><span class="text-color">About Us</span></h3>
+                <h4><span class="text-color"> What</span> We Have</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusamus facere distinctio animi
+                    consequatur ad quisquam,
+                    temporibus libero. Voluptatem doloribus asperiores placeat amet velit commodi ut, iusto dolorem ab
+                    dicta iure eligendi</p>
+            </div>
+            <div class="img"></div>
+        </section>
+
+        <section id="products">
+            <h3 class="m-header"><span class="text-color">Our</span> Products</h3>
+            <div class="products-container">
+                <div class="products-left">
+                    <div>
+                        <h3 class="m-header">iPhone</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, aut.</p>
+                        <img src="./img/iphone-11.jpg" alt="iPhone">
+                    </div>
+                    <div>
+                        <h3 class="m-header">Motorola</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, cumque!</p>
+                        <img src="./img/motorola.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="m-header">Airpod</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, cumque!</p>
+                        <img src="./img/airpod.jpg" alt="airpod">
+                    </div>
+                </div>
+                <div class="products-right">
+                    <div>
+                        <h3 class="m-header">Macbook pro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, aut.</p>
+                        <img src="./img/lenovo-2.png" alt="macbook">
+                    </div>
+                    <div>
+                        <h3 class="m-header">Lenovo</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, architecto?</p>
+                        <img src="./img/lenovo.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="m-header">Apple Watch</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, architecto?</p>
+                        <img src="./img/watch.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact">
+                <h3 class="m-header"> Contact<span class="text-color"> Us</span></h3>
+                <p>Got any Questions? Fill the form below to reach us</p>
+                <form action="process.php">
+                    <div class="form-group">
+                        <label for="name"><i class="fa-solid fa-address-card"></i>Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="fa-solid fa-envelope"></i>Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message"><i class="fa-solid fa-message"></i>Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn bg-color">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="map"></div>
+        </section>
+
+        <footer id="main-footer" class="bg-color">
+            <p>Shop Online Now</p>
+            <p>All rights reserved &copy; Copyright 2022</p>
+        </footer>
+
+        <!-- JQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <!-- Local JS File -->
+        <script src="main.js"></script>
+
+        <!-- Google Maps -->
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9SdI_5kBvNc_iSkuzX7xEQGx7xAtT4GI&callback=initMap"
+            async defer></script>
+    </body>
+
+</html>
